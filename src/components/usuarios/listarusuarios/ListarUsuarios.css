@@ -1,0 +1,8 @@
+.lista{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(210, 171, 171);
+    min-height: 100vh;
+}

@@ -1,17 +1,11 @@
 import './App.css'
-import Home from './pages/home/Home'
-import Contador from './pages/contador/Contador'
-import Login from './pages/login/Login'
-import Tarefa from './pages/tarefa/Tarefa'
+import ListarUsuarios from './components/usuarios/listarusuarios/ListarUsuarios'
 
 function App() {
 
   return (
     <>
-        <Home titulo='Notícias' texto=' Lucro do FGTS: saiba quanto vai receber e como verificar saldo Lucro do FGTS: saiba quanto vai receber e como verificar saldo' />
-        <Contador />
-        <Tarefa />
-        <Login />
+      <ListarUsuarios />
     </>
   )
 }
